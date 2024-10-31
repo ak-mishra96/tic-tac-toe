@@ -1,4 +1,3 @@
-// Can't create, dit, or upload … Not enough storage. Get 30 GB of storage for ₹59.00 ₹15.00/month for 2 months.
 let box1 = document.getElementById('box_1');
 let box2 = document.getElementById('box_2');
 let box3 = document.getElementById('box_3');
