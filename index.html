@@ -1,0 +1,55 @@
+<!-- Can't create, edit, or upload … Not enough storage. Get 30 GB of storage for ₹59.00 ₹15.00/month for 2 months. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="nav_bar">
+        <h1 id="game_name" style="font-family: 'Sixtyfour', sans-serif; padding-left: 45px; font-size: 30px;">TIC TAC TOE</h1>
+        <h3 id="owner" style="font-family: 'Nothing You Could Do', cursive; padding-right: 45px; font-size: 20px;">By Ak Mishra</h3>
+    </nav>
+    <div id="play_ground">
+        <div class="table" id="play_table">
+            <div class="box" id="box_1"></div>
+            <div class="box" id="box_2"></div>
+            <div class="box" id="box_3"></div>
+            <div class="box" id="box_4"></div>
+            <div class="box" id="box_5"></div>
+            <div class="box" id="box_6"></div>
+            <div class="box" id="box_7"></div>
+            <div class="box" id="box_8"></div>
+            <div class="box" id="box_9"></div>
+        </div>
+        <div class="table" id="play_result">
+            <div id="reset_btn">Reset</div>
+            <div id="result_div">
+                <div id="turn_and_result">
+                    <div id="turn"></div>
+                    <div id="turn_result_text"></div>
+                </div>
+                <div id="celebration"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="blur_bg">
+        <div id="participation_div">
+            <p style="padding-left: 10px; font-size: 25px; color: #000000; font-family: 'Open Sans', sans-serif;">Player 1</p>
+            <p style="padding-left: 10px; font-size: 25px; color: #000000; font-family: 'Open Sans', sans-serif;">Player 2</p>
+            <input type="text" name="" value=" " style="font-size: 16px; color: #000000; padding: 0px 15px; outline: none; border: 1px solid #ccc; border-radius: 6px; margin: 0px 0px; grid-row: span 2;" class="players_name_input" id="player1">
+            <input type="text" name="" value=" " style="font-size: 16px; color: #000000; padding: 0px 15px; outline: none; border: 1px solid #ccc; border-radius: 6px; margin: 0px 0px; grid-row: span 2;" class="players_name_input" id="player2">
+            <div id="submit_participation">
+                <span id="submit_button">Submit</span>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
